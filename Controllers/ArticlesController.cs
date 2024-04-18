@@ -82,7 +82,7 @@ namespace WikiApi.Controllers
             }
             catch (Exception ex)
             {
-                return Problem("Unable to delete article");
+                return Problem("Unable to update article");
             }
 
         }
